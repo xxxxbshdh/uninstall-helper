@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# 本地配置（含密钥，绝不提交）
+dualbrain_config.json
+*_config.json
+!*_config.example.json
+
+# 运行时状态 / 输出
+brain_workspace/
+*_state.json
+*.log
+*_dump.txt
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
